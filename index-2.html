@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SGN Digital Solutions - professional websites, graphics, video editing, AI content, branding and digital services for businesses.">
+  <title>SGN Digital Solutions | Professional Digital Services</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;color:#14213d;background:#f7f9fc;line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1120px,92%);margin:auto}
+    header{background:#0b1635;color:#fff;position:sticky;top:0;z-index:20;box-shadow:0 3px 15px #0002}
+    nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+    .logo{font-size:1.55rem;font-weight:900;letter-spacing:.5px}.logo span{color:#27c6ff}
+    nav ul{display:flex;gap:25px;list-style:none}
+    nav li a{font-weight:700;color:#fff}.menu{display:none;font-size:28px;cursor:pointer}
+    .hero{background:linear-gradient(135deg,#081332 0%,#123b72 55%,#0797c8 100%);color:white;padding:90px 0 85px}
+    .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:45px;align-items:center}
+    .tag{display:inline-block;background:#ffffff18;border:1px solid #ffffff35;padding:8px 14px;border-radius:30px;font-weight:700;margin-bottom:18px}
+    h1{font-size:clamp(2.4rem,6vw,4.6rem);line-height:1.05;margin-bottom:20px}
+    .hero p{font-size:1.12rem;max-width:650px;color:#e8f5ff;margin-bottom:28px}
+    .buttons{display:flex;gap:13px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:13px 20px;border-radius:9px;font-weight:800;border:2px solid transparent}
+    .primary{background:#27c6ff;color:#07142f}.secondary{border-color:#fff;color:#fff}
+    .hero-card{background:#ffffff12;border:1px solid #ffffff25;border-radius:20px;padding:28px;backdrop-filter:blur(8px)}
+    .hero-card h3{font-size:1.35rem;margin-bottom:15px}.check{margin:12px 0}
+    section{padding:78px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 42px}
+    .section-head h2{font-size:2.3rem;margin-bottom:10px}.section-head p{color:#637083}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .card{background:#fff;border-radius:16px;padding:27px;box-shadow:0 8px 30px #12254d12;border:1px solid #e8edf5}
+    .icon{font-size:2rem;margin-bottom:13px}.card h3{margin-bottom:8px}.card p{color:#657286}
+    .about{background:#fff}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+    .about-box{background:#eef8ff;border-radius:20px;padding:35px}.about-box strong{font-size:2.7rem;color:#087fb5;display:block}
+    .list{list-style:none;margin-top:20px}.list li{margin:12px 0;font-weight:600}.list li:before{content:"✓";color:#08a7d8;font-weight:900;margin-right:10px}
+    .pricing .card{position:relative}.price{font-size:2rem;font-weight:900;margin:12px 0;color:#0b4c78}.featured{border:2px solid #16afd9;transform:translateY(-8px)}
+    .featured-badge{position:absolute;top:-14px;right:18px;background:#16afd9;color:#fff;padding:5px 11px;border-radius:20px;font-size:.8rem;font-weight:800}
+    .contact{background:#0b1635;color:#fff}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px}
+    .contact p{color:#cbd7e9;margin:9px 0}.contact-card{background:#ffffff10;border:1px solid #ffffff1f;padding:28px;border-radius:16px}
+    .contact-link{display:block;margin:14px 0;font-weight:700;color:#70ddff}
+    footer{background:#071027;color:#9eacc2;text-align:center;padding:24px}
+    @media(max-width:800px){
+      nav ul{display:none;position:absolute;top:72px;left:0;right:0;background:#0b1635;padding:20px;flex-direction:column}
+      nav ul.show{display:flex}.menu{display:block}
+      .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.grid{grid-template-columns:1fr}
+      .featured{transform:none}
+      section{padding:60px 0}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <a class="logo" href="#home">SGN <span>DIGITAL SOLUTIONS</span></a>
+      <div class="menu" onclick="document.querySelector('nav ul').classList.toggle('show')">☰</div>
+      <ul>
+        <li><a href="#home">Home</a></li><li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li><li><a href="#pricing">Packages</a></li><li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="tag">SMART DIGITAL SERVICES FOR MODERN BUSINESSES</span>
+      <h1>Make Your Business Look Professional Online.</h1>
+      <p>SGN Digital Solutions helps businesses build a stronger digital presence through professional websites, graphics, video editing, AI content, branding and social-media designs.</p>
+      <div class="buttons">
+        <a class="btn primary" href="#contact">Get Started</a>
+        <a class="btn secondary" href="https://wa.me/2348163279200">Chat on WhatsApp</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h3>What SGN Can Do For You</h3>
+      <div class="check">✓ Professional business websites</div>
+      <div class="check">✓ Social-media promotional designs</div>
+      <div class="check">✓ AI video & content creation</div>
+      <div class="check">✓ Logo & brand identity</div>
+      <div class="check">✓ Video editing & promotional content</div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <div class="section-head"><h2>Our Services</h2><p>Affordable digital solutions designed to help your business look trustworthy and attract customers.</p></div>
+    <div class="grid">
+      <div class="card"><div class="icon">🌐</div><h3>Website Development</h3><p>Modern, responsive websites for businesses, schools, stores, churches and personal brands.</p></div>
+      <div class="card"><div class="icon">🎨</div><h3>Graphic Design</h3><p>Professional flyers, posters, banners, business cards, adverts and social-media designs.</p></div>
+      <div class="card"><div class="icon">🎬</div><h3>Video Editing</h3><p>Promotional videos, short-form content, reels, adverts and engaging business videos.</p></div>
+      <div class="card"><div class="icon">🤖</div><h3>AI Content Creation</h3><p>AI-assisted images, videos, scripts, promotional concepts and creative digital content.</p></div>
+      <div class="card"><div class="icon">✨</div><h3>Logo & Branding</h3><p>Clean logos and visual identities that give your business a professional appearance.</p></div>
+      <div class="card"><div class="icon">📱</div><h3>Social Media Design</h3><p>Attention-grabbing posts and promotional materials for WhatsApp, Instagram, Facebook and more.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container about-grid">
+    <div>
+      <div class="section-head" style="text-align:left;margin:0 0 20px"><h2>Why Choose SGN?</h2><p>We combine creativity, technology and practical business communication to help brands present themselves professionally.</p></div>
+      <ul class="list">
+        <li>Professional and modern designs</li><li>Mobile-friendly websites</li><li>Affordable packages for growing businesses</li>
+        <li>Fast, clear communication</li><li>Solutions tailored to your business</li>
+      </ul>
+    </div>
+    <div class="about-box"><strong>SGN</strong><h3>Digital Solutions</h3><p>Your business deserves a digital presence that makes a strong first impression.</p></div>
+  </div>
+</section>
+
+<section id="pricing" class="pricing">
+  <div class="container">
+    <div class="section-head"><h2>Simple Packages</h2><p>Starting packages you can customize depending on your project.</p></div>
+    <div class="grid">
+      <div class="card"><h3>Starter</h3><div class="price">₦15,000+</div><p>Basic social-media design or simple promotional project.</p></div>
+      <div class="card featured"><span class="featured-badge">POPULAR</span><h3>Business</h3><div class="price">₦50,000+</div><p>Professional business website, branding elements and promotional content.</p></div>
+      <div class="card"><h3>Premium</h3><div class="price">Custom</div><p>Complete digital package combining website, branding, graphics and video.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container contact-grid">
+    <div><h2>Let's Build Your Business Online.</h2><p>Ready to make your business look more professional? Contact SGN Digital Solutions today.</p></div>
+    <div class="contact-card">
+      <h3>Contact SGN</h3>
+      <a class="contact-link" href="https://wa.me/2348163279200">📱 WhatsApp: 08163279200</a>
+      <a class="contact-link" href="tel:+2348163279200">☎ Call: 08163279200</a>
+      <a class="contact-link" href="mailto:sade4olaitan@gmail.com">✉ sade4olaitan@gmail.com</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 SGN Digital Solutions. All rights reserved.</footer>
+<script>
+  document.querySelectorAll("nav a").forEach(a => a.addEventListener("click",()=>document.querySelector("nav ul").classList.remove("show")));
+</script>
+</body>
+</html>
